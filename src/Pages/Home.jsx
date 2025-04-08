@@ -1,3 +1,4 @@
+import Forms from "../components/Forms"
 import Rutas from "../Routes/Rutas"
 
 const Home = () => {
@@ -6,7 +7,8 @@ const Home = () => {
     
     <main>
         <section id="content" className="side-main">
-            <h1>Pagina 1</h1>
+            <h1>Video de fondo </h1>
+            <Forms/>
         </section>
     </main>
     </>

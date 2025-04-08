@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.headers_P {
+    background-color: rgb(164, 164, 237);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+ul li {
+    display: inline-block;
+    margin: 8px;
+}
+
+ul li a {
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav_button {
+    padding: 10px 20px 10px 20px;
+    border-radius: 18px;
+    background-color: rgb(102, 102, 206);
+    border: none;
+    cursor: pointer;
+}
+
+
+
