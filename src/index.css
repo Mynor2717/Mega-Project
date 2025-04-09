@@ -1,0 +1,21 @@
+:colores {
+    --colorPrimary: #F58D34 ;
+    --colorSecond: #74BE4D ;
+    --darkTheme: #59616b ;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.side_main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+    padding: 20px;
+    margin: 12px;
+}
