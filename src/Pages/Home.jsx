@@ -2,6 +2,7 @@ import Forms from "../components/Forms"
 import Rutas from "../Routes/Rutas"
 import '../index.css'
 import Valoraciones from "../components/Valoraciones"
+import Hero from "../components/Hero"
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
               
             </video>
             <Forms/>
+            <Hero/>
         </section>
 
         <section className="contain_value">
