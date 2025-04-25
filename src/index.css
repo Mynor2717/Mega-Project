@@ -17,5 +17,60 @@
     align-items: center;
     height: 85vh;
     padding: 20px;
-    margin: 12px;
+    background-color: #74BE4D;
+}
+
+.contenedor_Primary {
+    display: flex;
+    height: 50vh;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Introducir la clase Hero aqui*/
+
+.hero_content {
+    height: 40vh;
+    width: 50vh;
+}
+
+.hero_content h1{
+    margin-bottom: 12px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.hero_content p {
+    margin-bottom:12px;
+}
+
+.hero_content button {
+    margin-bottom:12px;
+    padding: 10px 20px 10px 20px;
+    margin-right: 10px;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.forms {
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    width: 50vh;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: aliceblue;
+}
+
+.forms h3 {
+    text-align: center;
+    font-size: 33px;
+    font-weight: bold;
+    color: #F58D34;
+}
+
+.forms input {
+    margin: 5px;
+    padding: 13px;
 }
