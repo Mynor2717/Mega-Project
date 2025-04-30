@@ -4,9 +4,13 @@ const Forms = () => {
   return (
     <>
     <form action="" className='forms'>
-       /* El formulario lo tomare de mi
-        portafolio para guiarme */
         <h3>Formulario</h3>
+        <input type="text" placeholder='Name'/>
+        <input type="email" name="" id="" placeholder='Email'/>
+        <input type="text" placeholder='Phone Number'/>
+        <input type="text" placeholder='subject'/>
+        <input type="text" className='mensaje' placeholder='Message'/>
+        <input type="submit" className='Enviar' placeholder='Enviar'/>
     </form>
     </>
   )
