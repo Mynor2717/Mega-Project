@@ -1,60 +1,70 @@
 :colores {
-    --colorPrimary: #F58D34 ;
-    --colorSecond: #74BE4D ;
-    --darkTheme: #59616b ;
+  --colorPrimary: #f58d34;
+  --colorSecond: #74be4d;
+  --darkTheme: #59616b;
 }
 
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 .side_main {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 85vh;
-    padding: 20px;
-    margin: 10px;
-    background-color: #74BE4D;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 85vh;
+  padding: 20px;
+  margin: 10px;
+  background-image: url(../src/assets/Images/Back.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 1;
 }
 
 .contenedor_Primary {
-    display: flex;
-    height: 50vh;
-    margin: 20px;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  height: 50vh;
+  margin: 20px;
+  justify-content: center;
+  align-items: center;
 }
 
 /*Introducir la clase Hero aqui*/
 
 .hero_content {
-    height: 40vh;
-    width: 50vh;
+  height: 40vh;
+  width: 50vh;
+  color: #fff;
 }
 
-.hero_content h1{
-    margin-bottom: 12px;
-    font-size: 24px;
-    font-weight: 600;
+.hero_content h1 {
+  margin-bottom: 30px;
+  font-size: 24px;
+  font-weight: 600;
 }
 
 .hero_content p {
-    margin-bottom:12px;
+  margin-bottom: 30px;
+  font-size: 20px;
+  font-weight: 600;
 }
 
 .hero_content button {
-    margin-bottom:12px;
-    padding: 10px 20px 10px 20px;
-    margin-right: 10px;
-    font-weight: 600;
-    font-size: 12px;
+  margin-bottom: 12px;
+  padding: 10px 20px 10px 20px;
+  margin-right: 10px;
+  font-weight: 600;
+  font-size: 12px;
+  border-radius: 12px;
+  background-color: #f58d34;
+  color: #fff;
 }
 
 .forms {
+<<<<<<< HEAD
     display: grid;
     height: auto;
     width: 450px;
@@ -62,6 +72,16 @@
     border-radius: 8px;
     background: rgba(251, 184, 39, 0.3);
     border: solid  2px #000;
+=======
+  display: flex;
+  flex-direction: column;
+  height: 50vh;
+  width: 50vh;
+  padding: 10px;
+  border-radius: 8px;
+  background: rgba(251, 184, 39, 0.3);
+  border: solid 2px #acacac;
+>>>>>>> 2fc52e3b75aa44d12ccf732d1e08c5ebb5375b7b
 }
 
 .forms input {
@@ -69,13 +89,13 @@
 }
 
 .forms h3 {
-    text-align: center;
-    font-size: 33px;
-    font-weight: bold;
-    color: #454545;
+  text-align: center;
+  font-size: 33px;
+  font-weight: bold;
+  color: #ffffff;
 }
 
 .forms input {
-    margin: 5px;
-    padding: 13px;
+  margin: 5px;
+  padding: 13px;
 }
