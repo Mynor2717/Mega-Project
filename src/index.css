@@ -55,14 +55,17 @@
 }
 
 .forms {
-    display: flex;
-    flex-direction: column;
-    height: 50vh;
-    width: 50vh;
+    display: grid;
+    height: auto;
+    width: 450px;
     padding: 10px;
     border-radius: 8px;
     background: rgba(251, 184, 39, 0.3);
     border: solid  2px #000;
+}
+
+.forms input {
+    
 }
 
 .forms h3 {
